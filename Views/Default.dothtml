@@ -1,0 +1,32 @@
+﻿@viewModel TextClassification.ViewModels.DefaultViewModel, TextClassification
+@masterPage Views/MasterPage.dotmaster
+<dot:Content ContentPlaceHolderID="MainContent">
+
+    <div class="content">
+
+        <img src="Header.svg" class="content__background-image" />
+        <img src="Text.svg" class="content__image" />
+
+        <div class="content__text">
+
+            <h1>Text Sentiment Analysis</h1>
+            <br />
+            <table style="border: hidden">
+                <tbody style="border: hidden">
+                    <tr style="border: hidden">
+                        <td style="border: hidden" align="center">
+                            <dot:TextBox Text="{value: InputText}" placeholder="Write your text..." />
+                        </td>
+                        <td style="border: hidden" align="center">
+                            <dot:Button Click="{command: Predict()}" Text="Predict" />
+                        </td>
+                        <td style="border: hidden" align="center">
+                            <b>{{value: Result}}</b> {{value: Score}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</dot:Content>
