@@ -6,7 +6,7 @@
 
 ## Tutorial:
 
-[Sentiment analysis in a ASP.NET web application with ML.NET](#).
+[Sentiment analysis in a ASP.NET web application with ML.NET](https://www.c-sharpcorner.com/article/sentiment-analysis-in-an-asp-net-web-application-with-ml-net/).
 
 ## Autor
 
